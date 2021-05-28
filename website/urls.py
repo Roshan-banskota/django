@@ -20,4 +20,5 @@ urlpatterns = [
 
     path('',include('protfolio.urls')),
     path('admin/', admin.site.urls),
+
 ]

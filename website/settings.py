@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'protfolio',
+    'django',
+    
 ]
 
 MIDDLEWARE = [
@@ -119,9 +122,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIR =[
+STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'static'),
-    '/MyResume/website/static/',
+    #'/MyResume/website/static/',
 ]
 STATIC_ROOT=os.path.join(BASE_DIR,'assets')
 
